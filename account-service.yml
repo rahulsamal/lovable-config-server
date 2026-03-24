@@ -1,0 +1,16 @@
+server:
+  port: 9050
+  servlet.context-path: /account
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:9010/lovable-account-db
+    username: user
+    password: password
+    driver-class-name: org.postgresql.Driver
+
+stripe:
+  api:
+    secret: sk_test_51So2UvFQvbo5PO3Nzg8Sis2gU0ATMAEoFOkIgxm9OWDPIQCyMjx34jFPWNVt70ztAxmuEpXSIlKuDWZLMJqDdhY500uwVBupql
+  webhook:
+    secret: whsec_4239ab0d38b7011dff7afd4317123769c4a9ecf9f6334ca62779f04209ce3202
