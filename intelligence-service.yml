@@ -21,3 +21,6 @@ spring:
       embedding:
         options:
           model: qwen/qwen3-embedding-8b
+          
+jwt:
+  secretkey: asfd9asfdaoijfalkjl23u4oi5jlkjf98790890890ugojvakglsdfjn8yuh
