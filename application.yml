@@ -21,7 +21,7 @@ eureka:
     hostname: localhost
 
 jwt:
-  secretKey: asfd9asfdaoijfalkjl23u4oi5jlkjf98790890890ugojvakglsdfjn8yuh
+  secretkey: asfd9asfdaoijfalkjl23u4oi5jlkjf98790890890ugojvakglsdfjn8yuh
 
 app:
   frontend:
